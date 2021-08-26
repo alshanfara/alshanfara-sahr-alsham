@@ -46,12 +46,16 @@ div#l2 input#pass1, div#l2 input#u2, div#l3 input#pass2, div#l3 input#u3 {
 
 div#l2 input#u2, div#l3 input#u3 {
     margin-left: -6px;
-    border-radius: 0px 15px 15px 0px;
-    border: 1px solid #e1e0e0;
+    border-radius : 0px 15px 15px 0px;
+    border-bottom: 1px solid #0070b7;
     text-align: center;
+            background-image: linear-gradient(300deg,#e6f5f9 0,#cbf3ff 10%,#ffe3f4 51%,#fffbfd 89%,#fffcfe 100%);
+
 }
 
 div#l2 input#pass1, div#l3 input#pass2 {
+	            background-image: linear-gradient(300deg,#e6f5f9 0,#cbf3ff 10%,#ffe3f4 51%,#fffbfd 89%,#fffcfe 100%);
+
     border-radius: 15px 0px 0px 15px;
     border: 1px solid #e1e0e0;
     text-align: center;
@@ -128,18 +132,20 @@ ul.nav.nav-tabs.fl li a {
 }
 
 ul.nav.nav-tabs.fl li a {
+
     font-family: 'El Messiri',FontAwesome!important;
     font-size: 15px!important;
     padding: 4px!important;
     text-align: center!important;
     border-radius: 0px;
-    /* color: #005f69; */
-    color: rgba(53,115,118,1);
+    color: #ff0000;
+    color: rgb(241 8 8);
+
 }
 
 ul.nav.nav-tabs.fl li {
     width: 33.3%;
-    border-top: 1px solid #4c4b4b;
+    border-top: 1px solid #2d2b2b;
     border-radius: 0px;
     border-right: .50px solid #4c4b4b;
     background-color: #00000000;
@@ -230,7 +236,7 @@ ul.nav.nav-tabs.fl li .fa-user:before,.fa-user-plus:before
 
 
 .lonline.light.break {
-    outline: #b40666 solid 1px!important;
+    outline: #ffffff solid 1px!important;
     background-color: #98205f26!important;
      background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent)!important;
 }
@@ -238,13 +244,13 @@ ul.nav.nav-tabs.fl li .fa-user:before,.fa-user-plus:before
 
 #des1 {
     margin-bottom: 2px;
-    margin-top: 4px;
+    margin-top: 1px;
     font-family: 'El Messiri',FontAwesome!important;
-    background-image: -webkit-linear-gradient(45deg,rgb(86, 73, 73) 25%,#656062 25%,#4c4b4b 50%,rgb(86, 73, 73) 50%,rgb(128, 128, 128) 75%,#616161 75%,#616161);
+    background-image: -webkit-linear-gradient(45deg,rgb(82 184 216) 25%,#74c6df 25%,#74c6df 50%,rgb(82 184 216) 50%,rgb(82 184 216) 75%,#74c6df 75%,#52b8d8);
     color: #f9f9f9;
     border-radius: 0px;
     border-bottom: 2px solid #005f69;
-    border-top: 2px solid #005f69;
+    border: 1px solid #ff0000;
     padding-bottom: 3px;
 }
 
@@ -307,6 +313,7 @@ label.fl.label.loginstat.label-success {
 
 
 .s1.fa.fa-user.label.badgex.label-as-badge.label-success {
+
     height: 20px;
     border-radius: 7px!important;
     font-family: 'El Messiri',FontAwesome;
@@ -528,9 +535,13 @@ div#users img.fl.ustat {
 }
 
 label.label.label-primary.mini.fl {
+
+
+
     width: 100%!important;
     padding: 0px;
     border-radius: 24px!important;
+
 }
 
 .label-warning{ 
@@ -574,12 +585,11 @@ div#tlogins {
 
 div#l2 button.btn.btn-primary,div#l1 button.btn.btn-primary,div#l3 button.btn.btn-primary {
     border-radius: 24px 24px 24px 24px!important;
-    border: 1px solid rgb(81, 72, 72)!important;
+    border: 1px solid rgb(255 0 0)!important;
     margin-top: 3px;
     height: 26px;
     margin-bottom: 4px;
     padding: 0 0 0px;
-
 }
 
 .btn.hand.borderg.corner {
