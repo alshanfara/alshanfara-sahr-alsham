@@ -48,13 +48,12 @@ div#l2 input#u2, div#l3 input#u3 {
     margin-left: -6px;
     border-radius : 0px 15px 15px 0px;
     border-bottom: 1px solid #0070b7;
+
     text-align: center;
-            background-image: linear-gradient(300deg,#e6f5f9 0,#cbf3ff 10%,#ffe3f4 51%,#fffbfd 89%,#fffcfe 100%);
 
 }
 
 div#l2 input#pass1, div#l3 input#pass2 {
-	            background-image: linear-gradient(300deg,#e6f5f9 0,#cbf3ff 10%,#ffe3f4 51%,#fffbfd 89%,#fffcfe 100%);
 
     border-radius: 15px 0px 0px 15px;
     border: 1px solid #e1e0e0;
@@ -127,7 +126,7 @@ ul.nav.nav-tabs.fl li a {
     text-align: center!important;
     border-radius: 5px 5px 0px 0px;
     width: 100%;
-    color: #005f69;
+    color: #1a3538;
     
 }
 
@@ -184,7 +183,7 @@ ul.nav.nav-tabs.fl li .fa-user:before,.fa-user-plus:before
 {
 	float:left;
     /* background-image:none; */
-     background: rgba(53,115,118,1);
+     background: rgb(82 184 216);
 	/* background-image: -webkit-linear-gradient(45deg,rgb(0, 95, 105) 25%,#005f69 25%,#4c4b4b 50%,rgb(76, 75, 75) 50%,rgb(0, 95, 105) 75%,#005f69 75%,#005f69)!important; */
 	padding:2px 5px;
 	margin-top:-5px;
