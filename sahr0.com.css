@@ -162,7 +162,7 @@ ul.nav.nav-tabs.fl {
 
 ul.nav.nav-tabs.fl li a:hover {
     background-color: white;
-    color: #005f69;
+    color: #000000;
     
 }
 
@@ -183,7 +183,7 @@ ul.nav.nav-tabs.fl li .fa-user:before,.fa-user-plus:before
 {
 	float:left;
     /* background-image:none; */
-     background: rgb(82 184 216);
+     background: rgb(37 37 37);
 	/* background-image: -webkit-linear-gradient(45deg,rgb(0, 95, 105) 25%,#005f69 25%,#4c4b4b 50%,rgb(76, 75, 75) 50%,rgb(0, 95, 105) 75%,#005f69 75%,#005f69)!important; */
 	padding:2px 5px;
 	margin-top:-5px;
@@ -227,7 +227,7 @@ ul.nav.nav-tabs.fl li .fa-user:before,.fa-user-plus:before
 }
 
 .border.corner, .border.corner {
-    box-shadow: inset 0 1px 1px rgb(0, 95, 105), 0 0 0px rgb(0, 95, 105)!important;
+    box-shadow: inset 0 1px 1px rgb(51 51 51), 0 0 0px rgb(0, 95, 105)!important;
     border: 1px solid rgba(76, 75, 75, 0.34)!important;
     
 }
@@ -245,10 +245,10 @@ ul.nav.nav-tabs.fl li .fa-user:before,.fa-user-plus:before
     margin-bottom: 2px;
     margin-top: 1px;
     font-family: 'El Messiri',FontAwesome!important;
-    background-image: -webkit-linear-gradient(45deg,rgb(82 184 216) 25%,#74c6df 25%,#74c6df 50%,rgb(82 184 216) 50%,rgb(82 184 216) 75%,#74c6df 75%,#52b8d8);
+    background-image: -webkit-linear-gradient(45deg,rgb(51 51 51) 25%,#000000 25%,#333333 50%,rgb(0 0 0) 50%,rgb(51 51 51) 75%,#000000 75%,#0a0a0a);
     color: #f9f9f9;
     border-radius: 0px;
-    border-bottom: 2px solid #005f69;
+    border-bottom: 2px solid #333333;
     border: 1px solid #ff0000;
     padding-bottom: 3px;
 }
